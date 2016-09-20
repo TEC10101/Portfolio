@@ -4,6 +4,7 @@ article, aside, figcaption, footer, header, main, nav, section {
 	display: block;
 }
 
+/* default no padding on the boxes */
 html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
 	padding: 0;
 	margin: 0;
@@ -30,8 +31,25 @@ nav {
 	margin-top: 1px;
 }
 
-li a {
-	color: white;
+/* links in the navbar header specifically */
+nav a {
+	color: white; /* changed white to green */
+}
+
+/* links in main element, excluding aside element */
+main a {
+	color: black;
+}
+main a:hover {
+	color: orange;
+}
+
+article header {
+	margin-bottom: 5px;
+}
+
+article span {
+	padding-left: 10px;
 }
 
 li {
@@ -77,16 +95,11 @@ footer {
 	padding: 5px 20px;
 }
 
-div.box {
-left: 40px;
--webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-}
-div.box.totheleft { left: 0px; }
-div.box.totheright { left: 80px; }        
-
+/*
+span {
+	
+}       
+*/
 
 
 
