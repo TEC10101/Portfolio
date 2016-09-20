@@ -15,7 +15,8 @@
 			<p>All good things.</p>
 		</header>
 		
-		<nav>
+		<!-- create class navLinks -->
+		<nav class="navLink">
 			<ul>
 				<li><a href="news.html">News</a></li>
 				<li><a href="archive.html">Archive</a></li>
@@ -30,9 +31,11 @@
 			<section>
 			
 			<!-- Top Header -->
-				<h2>Software Developer Boot Camp</h2>
+				<header>
+					<h2>Software Developer Boot Camp</h2>
+				</header>
 				
-				<!-- use this section for separate courses ->
+				<!-- use this for separate courses, add articles if in same week ->
 				<article>
 					<header>
 						<h3></h3> <!-- This is the words "Week 1" ->
@@ -41,32 +44,39 @@
 					<span></span>
 				</article>
 				-->
+				
 				<article>
-					<header>
-						<h3>Week 1</h3>
-						<span>Course 1: Computer Basics</span>
-					</header>
-					<span>This is the story text inside a span tag.</span>
+						<header>
+							<h3>Week 1</h3>
+							<span>Course 1: Computer Basics</span>
+						</header>
+					<span>This is the story text inside a span tag with a br at the end.</span><br >
 					<span>This is the story text inside a span tag.</span>
 				</article>
 				
-				<!-- separate courses, week 2-->
+				<!-- separate courses by week -->
 				<article>
-					<header>
-						<h3>Week 2</h3>
-						<span>Course 2: WordPress</span>
-					</header>
-					<span>Polished up my WP site,</span>
-					<ol>	
-						<li><span>Check it out, here: <a href="http://blog.thebigexpedition.com">blog.thebigexpedition.com</a></span></li>
-					</ol>
+						<header>
+							<h3>Week 2</h3>
+							<span>Course 2: WordPress</span>
+						</header>
+					<span>Polished up my WP site,</span><br />
+					<span>Check it out, here: <a href="http://blog.thebigexpedition.com" class="">blog.thebigexpedition.com</a></span></li>
+					
+					<hr />
+						<header>
+							<span>Course 3: Overview of Software Development</span>
+						</header>
+					
+					<span>Different concepts, binary and hex, thinking like a computer.</span>
+					<span>Inside a span tag</span>
 				</article>
 				
-				<!-- separate courses, week 2-->
+				<!-- separate courses, week 2->
 				<article>
 					<header>
 						<h3>Week 2</h3>
-						<!-- using span tag instead of p-->
+						<!-- using span tag instead of p->
 						<span>Course 3: Overview of Software Development</span>
 					</header>
 					<span>Different concepts, binary and hex, thinking like a computer.</span>
@@ -85,14 +95,14 @@
 					</ol>
 				</article>
 				
-				<!-- use this section for separate courses -->
+				<!-- use this section for separate courses ->
 				<article>
 					<header>
 						<h3>Week 3</h3>
 						<span>Course 5: HTML/CSS</span>
 					</header>
 					
-					<!-- organized list of each .html page i create along the way -->
+					<!-- organized list of each .html page i create along the way ->
 					<ol>
 						<li><span><a href="first.html">First Page</a></span><li>
 						<li><span><a href="second-image.html">Second Page</a></span><li>
