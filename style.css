@@ -77,7 +77,15 @@ footer {
 	padding: 5px 20px;
 }
 
-
+div.box {
+left: 40px;
+-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+div.box.totheleft { left: 0px; }
+div.box.totheright { left: 80px; }        
 
 
 
