@@ -10,10 +10,20 @@ html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav,
 	margin: 0;
 }
 
+article {
+	padding-bottom: 15px;
+}
+
 .banner {
 	background-color: #11233b;
 	color: white;
 	padding: 10px 20px;
+}
+
+.asidePic {
+	border: 3px;
+	height: 440px;
+	width: 264px;
 }
 
 body {
@@ -33,7 +43,7 @@ nav {
 
 /* links in the navbar header specifically */
 nav a {
-	color: white; /* changed white to green */
+	color: white;
 }
 
 /* links in main element, excluding aside element */
@@ -50,6 +60,25 @@ article header {
 
 article span {
 	padding-left: 10px;
+}
+
+/* a <span> that's inside of a <header> of an <article>
+in other words, the "course 1, 2, 3..." */
+article header span {
+	font-style: italic;
+}
+
+article a {
+	display: inline;
+	padding-left: 5px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: black;
+}
+
+article a:hover {
+	color: orange;
 }
 
 li {
@@ -88,6 +117,16 @@ aside {
 	text-align: center;
 }
 
+.portImg {
+	border: 3px;
+	height: 440px;
+	width: 264px;
+	content: url("img/portfolio-me.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
 footer {
 	clear: both;
 	background-color: #20416c;
@@ -95,7 +134,15 @@ footer {
 	padding: 5px 20px;
 }
 
+footer p:after {
+	content: "Footer Information - UnCopyright 2016";
+}
+
 /*
+nav header.preBuilt {
+	
+}
+
 span {
 	
 }       
