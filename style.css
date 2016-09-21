@@ -59,12 +59,12 @@ main a:hover {
 	color: orange;
 }
 
-article header, article span {
-	margin-bottom: 5px;
+article header{
 	padding-left: 10px;
 }
 
 article span {
+	
 	margin-bottom: 10px;
 }
 
@@ -76,7 +76,7 @@ article span {
 
 /* a <span> that's inside of a <header> of an <article>
 in other words, the "course 1, 2, 3..." */
-article header span {
+article article span {
 	font-style: italic;
 }
 
@@ -104,13 +104,23 @@ li {
 
 section {
 	background-color: #bbbbbb;
-	margin-top: 10px;
+	margin-top: 1px;
+	margin-bottom: 9px;
 	padding: 5px;
+}
+
+section h2 {
+	padding-left: 15px;
 }
 
 article {
 	background-color: white;
-	margin-top: 5px;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+}
+article.title {
+	background-color: white;
+	/*margin-top: 5px;*/
 	padding: 10px 15px;
 }
 
