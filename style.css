@@ -117,6 +117,16 @@ aside {
 	text-align: center;
 }
 
+.portImg {
+	border: 3px;
+	height: 440px;
+	width: 264px;
+	content: url("img/portfolio-me.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
 footer {
 	clear: both;
 	background-color: #20416c;
