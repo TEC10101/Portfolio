@@ -134,6 +134,10 @@ footer {
 	padding: 5px 20px;
 }
 
+footer p:after {
+	content: "Footer Information - UnCopyright 2016";
+}
+
 /*
 nav header.preBuilt {
 	
