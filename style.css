@@ -31,6 +31,14 @@ article {
 	font-size: 15px;
 }
 
+/* testing to see if I can make the hyperlinks of the
+nav bar to be variables 
+.navLinksHome {
+	color: white;
+	content: url("index.html");
+}
+I'd like to make a class or maybe i need an ID for index, etc */
+
 body {
 		width: 960px;
 		margin-left: auto;
