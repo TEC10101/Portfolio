@@ -28,7 +28,47 @@ body {
 nav {
 	background-color: #20416c;
 	padding: 5px;
+	margin-top: 1px;
+}
 
+/* links in the navbar header specifically */
+nav a {
+	color: white; /* changed white to green */
+}
+
+/* links in main element, excluding aside element */
+main a {
+	color: black;
+}
+main a:hover {
+	color: orange;
+}
+
+article header {
+	margin-bottom: 5px;
+}
+
+article span {
+	padding-left: 10px;
+}
+
+article a {
+	display: inline;
+	padding-left: 5px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: black;
+}
+
+article a:hover {
+	color: orange;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 20px;
 	font-variant: small-caps;
 	font-weight: bold;
