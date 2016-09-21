@@ -59,13 +59,20 @@ main a:hover {
 	color: orange;
 }
 
-article header {
+article header, article span {
 	margin-bottom: 5px;
+	padding-left: 10px;
 }
 
 article span {
+	margin-bottom: 10px;
+}
+
+/*
+article span {
 	padding-left: 10px;
 }
+*/
 
 /* a <span> that's inside of a <header> of an <article>
 in other words, the "course 1, 2, 3..." */
