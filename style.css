@@ -107,9 +107,14 @@ article {
 	padding: 10px 15px;
 }
 
-main {
+main.split {
 	width: 640px;
 	float: left;
+	margin-bottom: 10px;
+}
+
+main.single{
+	width: inherit;
 	margin-bottom: 10px;
 }
 
