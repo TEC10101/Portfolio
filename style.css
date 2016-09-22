@@ -20,6 +20,17 @@ article {
 	padding: 10px 20px;
 }
 
+header {
+	position: relative;
+}
+
+.betaLogo {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background-color: inherit;
+}
+
 .asidePic {
 	border: 3px;
 	height: 440px;
@@ -52,6 +63,7 @@ nav {
 	background-color: #20416c;
 	padding: 5px;
 	margin-top: 1px;
+	clear: both;
 }
 
 /* links in the navbar header specifically */
@@ -67,17 +79,24 @@ main a:hover {
 	color: orange;
 }
 
-article header {
-	margin-bottom: 5px;
-}
-
-article span {
+article header{
 	padding-left: 10px;
 }
 
+article span {
+	
+	margin-bottom: 10px;
+}
+
+/*
+article span {
+	padding-left: 10px;
+}
+*/
+
 /* a <span> that's inside of a <header> of an <article>
 in other words, the "course 1, 2, 3..." */
-article header span {
+article article span {
 	font-style: italic;
 }
 
@@ -105,19 +124,34 @@ li {
 
 section {
 	background-color: #bbbbbb;
-	margin-top: 10px;
+	margin-top: 1px;
+	margin-bottom: 9px;
 	padding: 5px;
+}
+
+section h2 {
+	padding-left: 15px;
 }
 
 article {
 	background-color: white;
-	margin-top: 5px;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+}
+article.title {
+	background-color: white;
+	/*margin-top: 5px;*/
 	padding: 10px 15px;
 }
 
-main {
+main.split {
 	width: 640px;
 	float: left;
+	margin-bottom: 10px;
+}
+
+main.single{
+	width: inherit;
 	margin-bottom: 10px;
 }
 
