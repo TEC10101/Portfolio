@@ -79,13 +79,17 @@ main a:hover {
 	color: orange;
 }
 
-article header{
+article header, header span {
 	padding-left: 10px;
 }
 
-article span {
-	
+header span {
+	font-style: italic;
+}
+
+span.post {
 	margin-bottom: 10px;
+	font-style:normal;
 }
 
 /*
@@ -96,9 +100,10 @@ article span {
 
 /* a <span> that's inside of a <header> of an <article>
 in other words, the "course 1, 2, 3..." */
+/*
 article article span {
 	font-style: italic;
-}
+}*/
 
 article a {
 	display: inline;
@@ -159,7 +164,8 @@ aside {
 	background-color: #bbbbbb;
 	width: 270px;
 	float: right;
-	margin-top: 10px;
+	margin-top: 1px;
+	margin-bottom: 9px;
 	padding: 20px;
 	text-align: center;
 }
