@@ -9,7 +9,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Portfolio", "http://localho
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "C:\Projects\Portfolio\"
+		SlnRelativePath = "..\Portfolio\"
 	EndProjectSection
 EndProject
 Global

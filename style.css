@@ -28,6 +28,9 @@ body style {
 	font-size: 256px;
 	color: black;
 	text-align: right;
+    height: 100px;
+    display: block;
+    vertical-align: top;
 }
 
 .banner {
@@ -85,6 +88,7 @@ nav {
 /* links in the navbar header specifically */
 nav a {
 	color: white;
+    text-decoration: none;
 }
 
 /* links in main element, excluding aside element */
@@ -152,7 +156,7 @@ article a:hover {
 	position: relative;
 	border: 1px solid #9d9fa2;
 	border-radius: 1.5px;
-	background-color: #387593;
+	background-color: #11233b;
 	cursor: pointer;
 	width: 125px;
 }
@@ -180,7 +184,7 @@ article a:hover {
 }
 
 .submenu li {
-	background-color: #387593;
+	background-color: #11233b;
 	display: block-inline;
 	color: #b3b3b3;
 }
