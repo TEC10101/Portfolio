@@ -176,11 +176,12 @@ article a:hover {
 	width: 125.5px;
 	opacity: 0;
 	visibility: hidden;
+    z-index:1;
 }
 
 .submenu li {
 	background-color: #387593;
-	display: block;
+	display: block-inline;
 	color: #b3b3b3;
 }
 
