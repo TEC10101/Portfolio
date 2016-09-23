@@ -1,5 +1,6 @@
 ﻿@charset "UTF-8";
 
+/* default display items as block-level */
 article, aside, figcaption, footer, header, main, nav, section {
 	display: block;
 }
@@ -10,8 +11,8 @@ html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav,
 	margin: 0;
 }
 
-article {
-	padding-bottom: 15px;
+article p {
+	padding-left: 10px;
 }
 
 body style {
@@ -23,6 +24,10 @@ body style {
 	white-space: pre;
 }
 
+/* used to italicize the subsections of the weeks on the index*/
+.title {
+	font-style: italic;
+}
 .nextCourse {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 256px;
@@ -127,7 +132,6 @@ article article span {
 
 article a {
 	display: inline;
-	padding-left: 5px;
 	font-size: 20px;
 	font-variant: small-caps;
 	font-weight: bold;
@@ -199,8 +203,8 @@ article a:hover {
 section {
 	background-color: #bbbbbb;
 	margin-top: 1px;
-	margin-bottom: 9px;
 	padding: 5px;
+	padding-bottom: 1px;
 }
 
 section h2 {
@@ -209,13 +213,9 @@ section h2 {
 
 article {
 	background-color: white;
-	padding: 5px 15px;
-	margin-bottom: 10px;
-}
-article.title {
-	background-color: white;
-	/*margin-top: 5px;*/
-	padding: 10px 15px;
+	padding: 5px;/* 15px;
+	padding: 5px;/* 15px;
+	padding: 5px 15px;*/
 }
 
 main.split {
