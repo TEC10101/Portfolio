@@ -6,19 +6,19 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="footer.css" />
         <link rel="stylesheet" type="text/css" href="editcssbox.css" />
-        	<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<![endif]-->
+        <!--[if lt IE 9]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+				<![endif]-->
   </head>
 	<body>
-		<header class="banner">
-				<h1 style="display: inline;">Portfolio of Tyler Corum</h1><span> (beta)</span>
+			<header class="banner">
+				<h1 style="display:inline;">Portfolio of Tyler Corum</h1><span> (beta)</span>
 				<p>All good things</p>
-			<section class="betaLogo">
-				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
-				</a>
-			</section>
-		</header>
+				<section class="betaLogo">
+					<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+					</a>
+				</section>
+			</header>
 		
 		<!-- start navigation  -->
 		<nav>
@@ -39,63 +39,91 @@
 
 		<main class="split"> <!-- split chosen because there are side-by-sides on this page -->
 		
-			<section>
+			<section id="sectionIndex">
 					<header>
 						<h2>Software Developer Boot Camp</h2>
 					</header>
 				
+				<!-- start week 1 -->
 				<article>
 						<header>
 							<h3>Week 1</h3>
-							<span>Course 1: Computer Basics</span>
 						</header>
-						<article><span class="post">This is the story text inside a span tag with a br at the end.</span></article><br >
-					  <article><span class="post">This is the story text inside a span tag.</span></article>
-				</article>
+						
+					<span class="post">
+						<header>
+							<i>Course 1: Computer Basics</i>
+						</header>
+						<p>This is the story text inside a p tag with a br at the end.</p>
+						<br />
 				
-				<!-- separate courses by week -->
+						<p>This is the story text inside a p tag.</p>
+					</span>
+				</article>
+				<!-- end week 1 -->
+				<hr />
+				
+				<!-- start week 2 -->
 				<article>
 						<header>
 							<h3>Week 2</h3>
-							<span class="title">Course 2: WordPress</span>
 						</header>
-					<span class="post">Polished up my WordPress site, check it out, here: <a href="http://blog.thebigexpedition.com">blog.thebigexpedition.com</a></span></li>
-					
-					<hr />
+						
+					<span class="post">
 						<header>
-							<span>Course 3: Overview of Software Development</span>
+							<ul class="multi">
+								<li>Course 2: WordPress</li>
+								<li>Course 3: Overview of Software Development</li>
+							</ul>
 						</header>
-					
-					<span>Different concepts, binary and hex, thinking like a computer.</span>
+						<p>Polished up my WordPress site, check it out, here: <a href="http://blog.thebigexpedition.com">blog.thebigexpedition.com</a></p>
+						<br />
+
+						<p>Different concepts, binary and hex, thinking like a computer.</p>
+					</span>
 				</article>
+				<!-- end week 2 -->
+				<hr />
 				
-				<!-- separate weeks->
+				<!-- start template -->
+				<!--
 				<article>
-					<header>
-						<h3>Week 2</h3>
-						<!-- using span tag instead of p->
-						<span></span>
-					</header>
+						<header>
+							<h3></h3>
+						</headaer>
+					
+					<span class="post">
+						<header>
+							<ul class ="multi">
+								<li></li>
+								<li></li>
+							</ul>
+						</header>
+						<p></p>
+					</span>
 					<span></span>
 					<span></span>
 				</article>
+				-->
+				<!-- end template -->
 				
-				<!-- use this section for separate courses -->
+				<!-- start week 3 -->
 				<article>
 						<header>
 							<h3>Week 3</h3>
-							<span>Course 4: Version Control</span>
 						</header>
-					<span class="normalText">Git, GitHub.  Got mine setup for versioning.</span>
-					<br />
-					<span>Visit my public GitHub for this site,&nbsp;<a href="https://github.com/TEC10101/Portfolio">tec10101/portfolio</a></span>
-					
-					<hr />
+
+					<span class="post">
 						<header>
-							<span>Course 5: HTML/CSS</span>
+							<ul class="multi">
+								<li>Course 4: Version Control</li>
+								<li>Course 5: HTML/CSS</li>
+								<li>Course 6: Visual Studio</li>
+							</ul>
 						</header>
-					<!-- organized list of each .html page i create along the way -->
-					<span><a href="drills.html">Drills</a></span>
+						<p>git, GitHub.  Got mine setup for versioning. Visit my public GitHub for this site,&nbsp;<a href="https://github.com/TEC10101/Portfolio">tec10101/portfolio</a></p>
+						<p>I have been using the git CLI for windows.  I like the manual control over everything.
+					</span>
 				</article>
 				
 				<!-- use this section for separate courses.  doesn't work the way i want yet -->
