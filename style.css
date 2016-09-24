@@ -152,7 +152,7 @@ article a:hover {
 }
 
 .menu li {
-	color: #b3b3b3;
+	color: #white;
 	display: inline-block;
 	margin-right: -2px;
 	position: relative;
@@ -182,7 +182,7 @@ article a:hover {
 	width: 125.5px;
 	opacity: 0;
 	visibility: hidden;
-    z-index:1;
+  z-index:1;
 }
 
 .submenu li {
