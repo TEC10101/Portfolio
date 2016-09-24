@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+article, aside, figcaption, footer, header, main, nav, section {
+	display: block;
+}
+
+/* default no padding on the boxes */
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+
+article {
+	padding-bottom: 15px;
+}
+
+body style {
+	display: block;
+	background: #333;
+	color: white;
+	font: 13px/1.8 Monaco, Mono-Space;
+	padding: 20px;
+	white-space: pre;
+}
+
+.nextCourse {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 256px;
+	color: black;
+	text-align: right;
+}
+
+.banner {
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;
+}
+
+header {
+	position: relative;
+}
+
+.betaLogo {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background-color: inherit;
+}
+
+.asidePic {
+	border: 3px;
+	height: 440px;
+	width: 264px;
+}
+
+.normalText {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+/* testing to see if I can make the hyperlinks of the
+nav bar to be variables 
+.navLinksHome {
+	color: white;
+	content: url("index.html");
+}
+I'd like to make a class or maybe i need an ID for index, etc */
+
+body {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f0f0f0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 15px;
+}
+
+nav {
+	background-color: #20416c;
+	padding: 5px;
+	margin-top: 1px;
+	clear: both;
+}
+
+/* links in the navbar header specifically */
+nav a {
+	color: white;
+}
+
+/* links in main element, excluding aside element */
+main a {
+	color: black;
+}
+main a:hover {
+	color: orange;
+}
+
+article header, header span {
+	padding-left: 10px;
+}
+
+header span {
+	font-style: italic;
+}
+
+span.post {
+	margin-bottom: 10px;
+	font-style:normal;
+}
+
+/*
+article span {
+	padding-left: 10px;
+}
+*/
+
+/* a <span> that's inside of a <header> of an <article>
+in other words, the "course 1, 2, 3..." */
+/*
+article article span {
+	font-style: italic;
+}*/
+
+article a {
+	display: inline;
+	padding-left: 5px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: black;
+}
+
+article a:hover {
+	color: orange;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+section {
+	background-color: #bbbbbb;
+	margin-top: 1px;
+	margin-bottom: 9px;
+	padding: 5px;
+}
+
+section h2 {
+	padding-left: 15px;
+}
+
+article {
+	background-color: white;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+}
+article.title {
+	background-color: white;
+	/*margin-top: 5px;*/
+	padding: 10px 15px;
+}
+
+main.split {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+main.single{
+	width: inherit;
+	margin-bottom: 10px;
+}
+
+aside {
+	background-color: #bbbbbb;
+	width: 270px;
+	float: right;
+	margin-top: 1px;
+	margin-bottom: 9px;
+	padding: 20px;
+	text-align: center;
+}
+
+.portImg {
+	border: 3px;
+	height: 440px;
+	width: 264px;
+	content: url("img/portfolio-me.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+footer p:after {
+	content: "Footer Information - UnCopyright 2016";
+}
+
+/*
+nav header.preBuilt {
+	
+}
+
+span {
+	
+}       
+*/
+
+
+
+
+
+
+

@@ -1,0 +1,275 @@
+﻿@charset "UTF-8";
+
+/* default display items as block-level */
+article, aside, figcaption, footer, header, main, nav, section {
+	display: block;
+}
+
+/* default no padding on the boxes */
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+
+article p {
+	padding-left: 10px;
+}
+
+body style {
+	display: block;
+	background: #333;
+	color: white;
+	font: 13px/1.8 Monaco, Mono-Space;
+	padding: 20px;
+	white-space: pre;
+}
+
+/* setup for when a week has more than one subject */
+.multi {
+	list-style: none;
+	font-style: italic;
+}
+
+/* used to italicize the subsections of the weeks on the index*/
+.title {
+	font-style: italic;
+}
+.nextCourse {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 256px;
+	color: black;
+	text-align: right;
+    height: 100px;
+    display: block;
+    vertical-align: top;
+}
+
+.banner {
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;
+}
+
+header {
+	position: relative;
+}
+
+.betaLogo {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background-color: inherit;
+}
+
+.asidePic {
+	border: 3px;
+	height: 440px;
+	width: 264px;
+}
+
+/* testing to see if I can make the hyperlinks of the
+nav bar to be variables 
+.navLinksHome {
+	color: white;
+	content: url("index.html");
+}
+I'd like to make a class or maybe i need an ID for index, etc */
+
+body {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f0f0f0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 15px;
+}
+
+nav {
+	background-color: #20416c;
+	padding: 5px;
+	margin-top: 1px;
+	/*clear: both;*/
+}
+
+/* links in the navbar header specifically */
+nav a {
+	color: white;
+    text-decoration: none;
+}
+
+/* links in main element, excluding aside element */
+main a {
+	color: black;
+}
+main a:hover {
+	color: orange;
+}
+
+article header, header span {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+span.post {
+	margin-bottom: 10px;
+	font-style:normal;
+}
+
+/*
+article span {
+	padding-left: 10px;
+}
+*/
+
+/* a <span> that's inside of a <header> of an <article>
+in other words, the "course 1, 2, 3..." */
+/*
+article article span {
+	font-style: italic;
+}*/
+
+article a {
+	display: inline;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: black;
+}
+
+article a:hover {
+	color: orange;
+}
+
+.menu {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+}
+
+.menu li {
+	color: #b3b3b3;
+	display: inline-block;
+	margin-right: -2px;
+	position: relative;
+	border: 1px solid #9d9fa2;
+	border-radius: 1.5px;
+	background-color: #11233b;
+	cursor: pointer;
+	width: 125px;
+}
+
+.menu li:hover {
+	background-color: #5eafdf;
+	color: #fff;
+}
+
+.menu li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+.submenu {
+	padding: 0;
+	left: 0;
+	position: absolute;
+	top: 24px;
+	width: 125.5px;
+	opacity: 0;
+	visibility: hidden;
+    z-index:1;
+}
+
+.submenu li {
+	background-color: #11233b;
+	display: block-inline;
+	color: #b3b3b3;
+}
+
+.submenu li:hover {
+	color: #fff;
+	background-color: #5eafdf;
+	visibility: visible;
+	opacity: 1;
+}
+
+section {
+	background-color: #bbbbbb;
+	margin-top: 1px;
+	padding: 5px;
+	padding-bottom: 1px;
+}
+
+#sectionIndex {
+	background-color: #bbbbbb;
+	margin-top: 1px;
+	padding: 5px;
+}
+
+section h2 {
+	padding-left: 15px;
+}
+
+article {
+	background-color: white;
+	padding: 5px;/* 15px;
+	padding: 5px;/* 15px;
+	padding: 5px 15px;*/
+}
+
+main.split {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+main.single{
+	width: inherit;
+	margin-bottom: 10px;
+}
+
+aside {
+	background-color: #bbbbbb;
+	width: 270px;
+	float: right;
+	margin-top: 1px;
+	margin-bottom: 9px;
+	padding: 20px;
+	text-align: center;
+}
+
+.portImg {
+	border: 3px;
+	height: 440px;
+	width: 264px;
+	content: url("img/portfolio-me.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+footer p:after {
+	content: "Footer Information - UnCopyright 2016";
+}
+
+/*
+nav header.preBuilt {
+	
+}
+
+span {
+	
+}       
+*/
