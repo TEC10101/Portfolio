@@ -110,8 +110,8 @@ article header, header span {
 	padding-bottom: 10px;
 }
 
-span.post {
-	margin-bottom: 10px;
+.post {
+	padding-bottom: 10px;
 	font-style:normal;
 }
 
