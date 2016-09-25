@@ -125,11 +125,7 @@ START START START CSS HOVER
 
 
 
-header.what {
-    float:left;
-    position:relative;
-    cursor:pointer;
-}
+
 
 header.what:hover {
 	visibility: visibile;
@@ -302,9 +298,10 @@ section {
 	overflow:auto;
 }
 
+/*
 section h2 {
 	padding-left: 15px;
-}
+}*/
 
 article {
 	background-color: white;
@@ -388,60 +385,89 @@ footer p:after {
 
 iframe {
 	visibility; hidden;
-	z-index:2;
+	z-index: 0;
 	opacity: 0;
 	position: absolute;
-	height: 350px;
+	height: 335px;
 	overflow: auto;
+}
+
+div.what {
+    float:left;
+    position:relative;
+		
 }
 
 /* ver 0001 / 1 / 1.0 / Sept 21 */
 .ver0001 {
 	height: 30px;
-	overflow: none;
+	width: 300px;
+	overflow: hidden; /* hides scrollbars for div/article holding iframe */
 	background-color:red;
+	-webkit-transition: width 2s, height 2s, opacity 1s;
+	transition: width 2s, height 2s, opacity 1s;
 }
 .ver0001:hover {
-	height: 380px;
-	overflow: none;
+	height: 370px;
+		width: 945px;
+	overflow: hidden;
 	visibility: visibile;
+	opacity: 1;
+	padding-bottom:5px;
 }
 .ver0001:hover iframe {
 	display:block;
 	opacity: 1;
 	visibility: visibile;
 	position: relative;
+	z-index: 2;
 	left: 0px;
+	overflow: hidden;
+	transition: opacity 1s;
+	transition-delay: 1s;
 }
 
 /* version 0010 / 2 / 1.1 / Sept 22 */
 .ver0010 {
 	height: 30px;
-	overflow: none;
+	width: 400px;
+	overflow: hidden;
 	background-color: orange;
+	-webkit-transition: width 2s, height 2s, opacity 2s;
+	transition: width 2s, height 2s, opacity 2s;
 }
 .ver0010:hover {
-	height: 380px;
-	overflow: none;
+	height: 370px;
+		width: 945px;
+	overflow: hidden;
 	visibility: visibile;
+	opacity: 1;
 }
-.ver0010:hover iframe {
+	.ver0010:hover iframe {
 	display:block;
 	opacity: 1;
 	visibility: visibile;
 	position: relative;
 	left: 0px;
+	transition: opacity 1s;
+	transition-delay: 1s;
 }
 /* version 0011 / 3 / 1.2 / Sept 23 */
 .ver0011 {
 	height: 30px;
-	overflow: none;
+	width: 500px;
+	overflow: hidden;
 	background-color: yellow;
+		-webkit-transition: width 2s, height 2s, visibility 2s;
+	transition: width 2s, height 2s, visibility 2s;
+
 }
 .ver0011:hover {
 	height: 380px;
+		width: 945px;
 	overflow: none;
 	visibility: visibile;
+	
 }
 .ver0011:hover iframe {
 	display:block;
@@ -453,15 +479,85 @@ iframe {
 /* version 0100 / 4 / 1.3 / Sept 24 */
 .ver0100 {
 	height: 30px;
-	overflow: none;
+		width: 600px;
+	overflow: hidden;
 	background-color: green;
+		-webkit-transition: width 2s, height 2s, visibility 2s;
+	transition: width 2s, height 2s, visibility 2s;
+
 }
 .ver0100:hover {
 	height: 380px;
+		width: 945px;
 	overflow: none;
 	visibility: visibile;
 }
 .ver0100:hover iframe {
+	display:block;
+	opacity: 1;
+	visibility: visibile;
+	position: relative;
+	left: 0px;
+}
+/* version 0101 / 5 / 1.4 / Sept 25 */
+.ver0101 {
+	height: 30px;
+		width: 700px;
+	overflow: hidden;
+	background-color: blue;
+	-webkit-transition: width 2s, height 2s, visibility 2s;
+	transition: width 2s, height 2s, visibility 2s;
+}
+.ver0101:hover {
+	height: 380px;
+	overflow: none;
+	visibility: visibile;
+}
+.ver0101:hover iframe {
+	display:block;
+	opacity: 1;
+	visibility: visibile;
+	position: relative;
+	left: 0px;
+}
+/* version 0110 / 6 / 1.5 / Sept 26 */
+.ver0110 {
+	height: 30px;
+		width: 800px;
+	overflow: hidden;
+	background-color: indigo;
+	-webkit-transition: width 2s, height 2s, visibility 2s;
+	transition: width 2s, height 2s, visibility 2s;
+
+}
+.ver0110:hover {
+	height: 380px;
+	overflow: none;
+	visibility: visibile;
+}
+.ver0110:hover iframe {
+	display:block;
+	opacity: 1;
+	visibility: visibile;
+	position: relative;
+	left: 0px;
+}
+/* version 0111 / 7 / 1.6 / Sept 27 */
+.ver0111 {
+	height: 30px;
+		width: 900px;
+	overflow: hidden;
+	background-color: violet;
+	-webkit-transition: width 2s, height 2s, visibility 2s;
+	transition: width 2s, height 2s, visibility 2s;
+
+}
+.ver0111:hover {
+	height: 380px;
+	overflow: none;
+	visibility: visibile;
+}
+.ver0111:hover iframe {
 	display:block;
 	opacity: 1;
 	visibility: visibile;
