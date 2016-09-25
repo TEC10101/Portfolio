@@ -106,13 +106,8 @@ main a:hover {
 
 article header, header span {
 	padding-left: 10px;
-	padding-bottom: 10px;
 }
 
-.post {
-	padding-bottom: 10px;
-	font-style:normal;
-}
 
 /* START START START CSS HOVER
 START START START CSS HOVER
@@ -170,23 +165,6 @@ END END END CSS HOVER
 END END END CSS HOVER
 END END END CSS HOVER*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 article span {
 	padding-left: 10px;
@@ -243,10 +221,24 @@ article a:hover {
 	visibility: visible;
 }
 
-/*a.githuburl, */
-li.githuburl {
-	color: #5eafdf;
+li.homeUrl {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+}
 
+li.onUrl {
+	background-color: #5eafdf;
+	color: #fff;
+}
+
+li.offUrl {
+	color:white;
+	
+}
+
+/*a.githuburl, */
+li.githubUrl {
+	color: #5eafdf;
 	font-variant: normal;
 	display: inline-block;
 	font-size: 25px;
@@ -260,10 +252,13 @@ li.githuburl {
 		font-style: italic;
 }
 
-li.githuburl:hover {
+li.githubUrl:hover {
 	font-style: normal;
 	background-color: #191900;
+	color: #5eafdf;
 }
+
+
 
 .submenu {
 	padding: 0;
@@ -307,6 +302,9 @@ section {
 	background-color: #bbbbbb;
 	margin-top: 1px;
 	padding: 5px;
+	min-height: 400px;
+	max-height: 800px;
+	overflow:auto;
 }
 
 section h2 {
@@ -318,6 +316,31 @@ article {
 	padding: 5px;/* 15px;
 	padding: 5px;/* 15px;
 	padding: 5px 15px;*/
+}
+
+/* this is for article 1, 
+top position, gives more 
+eadroom under section title 
+stands for article 1 */
+.art1 {
+	border-top: 2px;
+	border-style: inset;
+}
+
+/* this is for the first paragraph,
+talking about stuff on the index page */
+header.curriculum {
+	padding-bottom:20px;
+}
+
+/*this is the <hr> style */
+/* Single-direction drop shadow */
+
+hr.s4 {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+		margin:0px;
 }
 
 main.split {
