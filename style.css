@@ -204,6 +204,7 @@ article a:hover {
 .menu li:hover {	
 	background-color: #5eafdf;
 	color: #fff;
+	border-bottom: 1px solid #11233b;
 }
 
 .menu li:hover ul {
@@ -220,6 +221,8 @@ li.homeUrl {
 li.onUrl {
 	background-color: #5eafdf;
 	color: #fff;
+	border-bottom: 1px;
+	border-color: #11233b;
 }
 
 li.offUrl {
@@ -292,9 +295,9 @@ section {
 
 #sectionIndex {
 	background-color: #bbbbbb;
-	margin-top: 1px;
+	border-top: 1px solid #f0f0f0;
 	padding: 5px;
-	min-height: 400px;
+	height: 400px;
 	overflow:auto;
 }
 
@@ -356,8 +359,7 @@ aside {
 	background-color: #bbbbbb;
 	width: 270px;
 	float: right;
-	margin-top: 1px;
-	margin-bottom: 9px;
+
 	padding: 20px;
 	text-align: center;
 }
