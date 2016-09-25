@@ -226,7 +226,7 @@ article a:hover {
 	display: inline-block;
 	position: relative;
 	border-right: 1px solid #f0f0f0;
-	background-color: #11233b;
+	background-color: #000019;
 	cursor: pointer;
 	width: 125px;
 	padding: 0px 0px;
@@ -245,9 +245,8 @@ article a:hover {
 
 /*a.githuburl, */
 li.githuburl {
-	background-color: black;
-	color: lightblue;
-	font-style: none;
+	color: #5eafdf;
+
 	font-variant: normal;
 	display: inline-block;
 	font-size: 25px;
@@ -258,10 +257,12 @@ li.githuburl {
 	width: 125px;
 	cursor: pointer;
 	padding-top: 0px;
+		font-style: italic;
 }
 
 li.githuburl:hover {
-	font-style: italic;
+	font-style: normal;
+	background-color: #191900;
 }
 
 .submenu {
