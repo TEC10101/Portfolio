@@ -16,27 +16,24 @@ commented out defaults, avail in style.css */
 section {
 	background-color: #bbbbbb;
 	margin-top: 1px;
-	padding: 0px;
+	padding: 0px 5px;
+	padding-bottom: 1px;
 	position: relative;
-	width: inherit;
 }
 
-div.versions {
-	width: 100%;
-}
-
-/*
+section.versions {
+	left: 0px;
+	width: 950px;
+	position: static;
 	-webkit-transition: width 2s, height 2s, opacity 1s;
 	transition: width 2s, height 2s, opacity 1s, left 1s;
 	transition-delay: .3s;
 
-} */
-
-div.versions article:hover {
-	position: absolute;
+}
+section.versions::hover {
+	position: relative;
 	left: -10px;
-	top: 0;
-	width: 980px;
+	width: 970px;
 	transition: width 1s, height 1s, left 1s;
 }
 
@@ -72,29 +69,16 @@ iframe {
 	visibility; hidden;
 	z-index: 0;
 	opacity: 0;
-	position: static;
+	position: absolute;
 	height: 335px;
 	width: 950px;
 	overflow: auto;
 	display: none;
 }
 
-div.versions {
-	position: relative;
-}
-div.versions:hover {
-	top: 0;
-	left: -10px;
-}
 div.what {
 	float:left;
 	overflow: hidden;
-	position: absolute;
-	width: 960px;
-	top: 30px;
-	left: 10px;
-	padding: 0;
-	margin: 0;
 }
 
 div:hover.what {
@@ -104,17 +88,15 @@ div:hover.what {
 		left: 0px;
 }*/
 
-div.what iframe {
-	position: relative;
-	top: 30px;
-}
-
 /* ver 0000 / 1 / 1.0 / Sept 21 */
 .ver0000 {
 	height: 30px;
 	width: 300px;
 	overflow: hidden; /* hides scrollbars for div/article holding iframe */
 	background-color:red;
+	transition-delay: 2s;
+	-webkit-transition: width 2s, height 2s, opacity 1s;
+	transition: width 2s, height 2s, opacity 1s;
 	position: relative;
 }
 .ver0000:hover {
@@ -133,7 +115,8 @@ div.what iframe {
 	display:block;
 	opacity: 1;
 	visibility: visibile;
-	z-index: 99;
+	position: static;
+	z-index: 0;
 	overflow: hidden;
 }
 
@@ -143,6 +126,8 @@ div.what iframe {
 	width: 400px;
 	overflow: hidden;
 	background-color: orange;
+	-webkit-transition: width 2s, height 2s, opacity 2s;
+	transition: width 2s, height 2s, opacity 2s;
 }
 .ver0001:hover {
 	height: 370px;
