@@ -45,25 +45,6 @@ section.versions::hover {
 	transition: width 1s, height 1s, left 1s;
 }
 
-.secTitle {
-	font-size: 20px;
-	font-weight: bold;
-	display: inline;
-	padding: 10px;
-}
-
-#sectionIndex {
-	background-color: #bbbbbb;
-	border-top: 1px solid #f0f0f0;
-	padding: 5px;
-	height: 400px;
-	overflow:auto;
-}
-
-/*
-section h2 {
-	padding-left: 15px;
-}*/
 
 article {
 	background-color: white;
