@@ -9,7 +9,7 @@ footer {
 }
 
 footer p:after {
-	content: "Footer Information - UnCopyright 2016";
+	content: " - Footer Information - UnCopyright 2016";
 }
 
 .banner h1:after {

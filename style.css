@@ -458,14 +458,14 @@ div.what {
 	width: 500px;
 	overflow: hidden;
 	background-color: yellow;
-		-webkit-transition: width 2s, height 2s, visibility 2s;
+	-webkit-transition: width 2s, height 2s, visibility 2s;
 	transition: width 2s, height 2s, visibility 2s;
 
 }
 .ver0011:hover {
 	height: 380px;
 		width: 945px;
-	overflow: none;
+	overflow: hidden;
 	visibility: visibile;
 	
 }
@@ -479,7 +479,7 @@ div.what {
 /* version 0100 / 4 / 1.3 / Sept 24 */
 .ver0100 {
 	height: 30px;
-		width: 600px;
+	width: 600px;
 	overflow: hidden;
 	background-color: green;
 		-webkit-transition: width 2s, height 2s, visibility 2s;
@@ -489,7 +489,7 @@ div.what {
 .ver0100:hover {
 	height: 380px;
 		width: 945px;
-	overflow: none;
+	overflow: hidden;
 	visibility: visibile;
 }
 .ver0100:hover iframe {
@@ -502,15 +502,16 @@ div.what {
 /* version 0101 / 5 / 1.4 / Sept 25 */
 .ver0101 {
 	height: 30px;
-		width: 700px;
+	width: 700px;
 	overflow: hidden;
 	background-color: blue;
-	-webkit-transition: width 2s, height 2s, visibility 2s;
-	transition: width 2s, height 2s, visibility 2s;
+	-webkit-transition: width 2s, height 2s;
+	transition: width 2s, height 2s;
 }
 .ver0101:hover {
 	height: 380px;
-	overflow: none;
+	width: 945px;
+	overflow: hidden;
 	visibility: visibile;
 }
 .ver0101:hover iframe {
@@ -532,7 +533,8 @@ div.what {
 }
 .ver0110:hover {
 	height: 380px;
-	overflow: none;
+	width: 945px;
+	overflow: hidden;
 	visibility: visibile;
 }
 .ver0110:hover iframe {
@@ -554,7 +556,8 @@ div.what {
 }
 .ver0111:hover {
 	height: 380px;
-	overflow: none;
+	width: 945px;
+	overflow: hidden;
 	visibility: visibile;
 }
 .ver0111:hover iframe {
