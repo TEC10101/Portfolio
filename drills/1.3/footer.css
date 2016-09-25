@@ -1,0 +1,19 @@
+﻿@charset "UTF-8";
+
+/* contains header & footer aka .banner */
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+footer p:after {
+	content: "Footer Information - UnCopyright 2016";
+}
+
+.banner h1:after {
+	font-style: italic;
+	font-size: 15px;
+	content: ' (beta)';
+}

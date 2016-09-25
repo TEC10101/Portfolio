@@ -1,0 +1,12 @@
+﻿@charset "UTF-8";
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}
+
+footer p:after {
+	content: "Footer Information - UnCopyright 2016";
+}
