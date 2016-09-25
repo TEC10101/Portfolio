@@ -12,6 +12,14 @@ html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav,
 }
 commented out defaults, avail in style.css */
 
+body {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f0f0f0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 15px;
+}
 
 section {
 	background-color: #bbbbbb;
