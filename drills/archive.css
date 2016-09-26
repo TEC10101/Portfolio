@@ -83,7 +83,7 @@ div:hover.what {
 	height: 30px;
 	width: 300px;
 	overflow: hidden; /* hides scrollbars for div/article holding iframe */
-	background-color:red;
+	background-color: #000019;
 	transition-delay: 2s;
 	-webkit-transition: width 2s, height 2s, opacity 1s;
 	transition: width 2s, height 2s, opacity 1s, visibility 2s;
@@ -114,7 +114,7 @@ div:hover.what {
 	height: 30px;
 	width: 400px;
 	overflow: hidden;
-	background-color: orange;
+	background-color: #00002d;
 	-webkit-transition: width 2s, height 2s, opacity 2s;
 	transition: width 2s, height 2s, opacity 2s;
 }
@@ -142,7 +142,7 @@ div:hover.what {
 	height: 30px;
 	width: 500px;
 	overflow: hidden;
-	background-color: yellow;
+	background-color: #000040;
 	-webkit-transition: width 2s, height 2s, visibility 2s;
 	transition: width 2s, height 2s, visibility 2s;
 }
@@ -168,7 +168,7 @@ div:hover.what {
 	height: 30px;
 	width: 600px;
 	overflow: hidden;
-	background-color: green;
+	background-color: #000054;
 		-webkit-transition: width 2s, height 2s, visibility 2s;
 	transition: width 2s, height 2s, visibility 2s;
 }
@@ -194,7 +194,7 @@ div:hover.what {
 	height: 30px;
 	width: 700px;
 	overflow: hidden;
-	background-color: blue;
+	background-color: #000067;
 	-webkit-transition: width 2s, height 2s;
 	transition: width 2s, height 2s;
 }
@@ -219,7 +219,7 @@ div:hover.what {
 	height: 30px;
 		width: 800px;
 	overflow: hidden;
-	background-color: indigo;
+	background-color: #00007b;
 	-webkit-transition: width 2s, height 2s, visibility 2s;
 	transition: width 2s, height 2s, visibility 2s;
 }
@@ -244,7 +244,7 @@ div:hover.what {
 	height: 30px;
 		width: 900px;
 	overflow: hidden;
-	background-color: violet;
+	background-color: #00008f;
 	-webkit-transition: width 2s, height 2s, visibility 2s;
 	transition: width 2s, height 2s, visibility 2s;
 }
