@@ -26,7 +26,7 @@ header {
 
 nav {
 	background-color: #20416c;
-	margin-top: 1px;
+	margin: 1px 0px;
 	/*clear: both;*/
 }
 
@@ -63,7 +63,7 @@ header.what:hover {
 .menu li:hover {	
 	background-color: #5eafdf;
 	color: #fff;
-	border-bottom: 1px solid #11233b;
+	border: 1px solid #11233b;
 }
 
 .menu li:hover ul {
@@ -80,13 +80,12 @@ li.homeUrl {
 li.onUrl {
 	background-color: #5eafdf;
 	color: #fff;
-	border-bottom: 1px;
-	border-color: #11233b;
+	border-bottom: 1px solid #11233b;
 }
 
 li.offUrl {
 	color:white;
-	
+	border-bottom: 1px solid white;
 }
 
 /*a.githuburl, */
@@ -101,14 +100,15 @@ li.githubUrl {
 	text-align: center;
 	width: 125px;
 	cursor: pointer;
-	padding-top: 0px;
-		font-style: italic;
+	padding: 0px;
+	font-style: italic;
 }
 
 li.githubUrl:hover {
 	font-style: normal;
-	background-color: #191900;
-	color: #5eafdf;
+	background-color: violet;
+	color: #white;
+	border: 1px solid #11233b;
 }
 
 .submenu {

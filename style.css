@@ -133,41 +133,6 @@ header.what:hover {
 
 
 
-/*
-iframe:hover, iframe html:hover,{
-	visibility: hidden;
-	z-index: 3;
-	opacity: 0;
-}*/
-
-/*
-.what p:hover iframe {
-	visibility:visible;
-	display: block;
-}*/
-
-
-
-
-/*
-END END END CSS HOVER
-END END END CSS HOVER
-END END END CSS HOVER
-END END END CSS HOVER
-END END END CSS HOVER*/
-
-/*
-article span {
-	padding-left: 10px;
-}
-*/
-
-/* a <span> that's inside of a <header> of an <article>
-in other words, the "course 1, 2, 3..." */
-/*
-article article span {
-	font-style: italic;
-}*/
 
 article a {
 	display: inline;
@@ -194,7 +159,7 @@ article a:hover {
 	color: #white;
 	display: inline-block;
 	position: relative;
-	border-right: 1px solid #f0f0f0;
+	border: 1px solid #f0f0f0;
 	background-color: #000019;
 	cursor: pointer;
 	width: 125px;
@@ -204,7 +169,7 @@ article a:hover {
 .menu li:hover {	
 	background-color: #5eafdf;
 	color: #fff;
-	border-bottom: 1px solid #11233b;
+	border: 1px solid #11233b;
 }
 
 .menu li:hover ul {
@@ -219,15 +184,13 @@ li.homeUrl {
 }
 
 li.onUrl {
-	background-color: #5eafdf;
 	color: #fff;
-	border-bottom: 1px;
-	border-color: #11233b;
+	background-color: #5eafdf;
 }
 
 li.offUrl {
 	color:white;
-	
+	background-color: #11233b;
 }
 
 /*a.githuburl, */
@@ -295,7 +258,7 @@ section {
 
 #sectionIndex {
 	background-color: #bbbbbb;
-	border-top: 1px solid #f0f0f0;
+	padding-top: 1px;
 	padding: 5px;
 	height: 400px;
 	overflow:auto;
