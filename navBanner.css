@@ -26,7 +26,7 @@ header {
 
 nav {
 	background-color: #20416c;
-	margin: 1px 0px;
+/*	margin: 1px 0px;*/
 	/*clear: both;*/
 }
 
@@ -53,8 +53,7 @@ header.what:hover {
 	color: #white;
 	display: inline-block;
 	position: relative;
-	border-right: 1px solid #f0f0f0;
-	background-color: #000019;
+/*	background-color: #000019;*/
 	cursor: pointer;
 	width: 125px;
 	padding: 0px 0px;
@@ -85,7 +84,7 @@ li.onUrl {
 
 li.offUrl {
 	color:white;
-	border-bottom: 1px solid white;
+/*	border-bottom: 1px solid white;*/
 }
 
 /*a.githuburl, */
@@ -104,30 +103,30 @@ li.githubUrl {
 	font-style: italic;
 }
 
-li.githubUrl:hover {
+/*li.githubUrl:hover {
 	font-style: normal;
 	background-color: violet;
 	color: #white;
 	border: 1px solid #11233b;
-}
+}*/
 
 .submenu {
 	padding-top: 5px;
 	position: absolute;
-	top: 30px;
-	width: 125.5px;
+	top: 32px;
+	width: 125px;
 	opacity: 0;
 	visibility: hidden;	
   z-index:1;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .submenu li {
 	background-color: #11233b;
-	display: block-inline;
+	display: inline-block;
 	color: #b3b3b3;
-	margin-bottom: 1px;
-	border-bottom: 1px;
+	margin: 1px 0px;
+/*	border-bottom: 1px;*/
 	opacity: .85;
 }
 
