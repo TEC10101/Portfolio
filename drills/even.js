@@ -1,6 +1,6 @@
 //EVEN 
 //Use: to find out if a number is even or odd, and then asks the user if they want to run the program again.
-//version 1.0.1 - testing.  Stable.
+//version 1.2 - testing.  Stable.
 
 
 
@@ -18,21 +18,42 @@ $(document).ready(function() {
 			if ( evenStart == 0 ) {			//only show welcome message on first run
 				keyboardInput = window.prompt('Welcome to Even, please enter a number that\'s larger than zero to find out of it is even or odd, then press OK.');
 				evenStart++;		//immediately increment so it loops through the other 2 options if non-positive int
-				if ( keyboardInput == null) {		//if user presses "Cancel"
+				if ( keyboardInput == null || evenStart == 5 ) {		//if user presses "Cancel"
+					alert("You're hopeless...");
+			evenStart = 0;
 					return;
 				};
-							//if user inputs words or symbols
-			} else if ( isNaN(keyboardInput) ) {keyboardInput = window.prompt('Please enter a number, nothing else:');
-				if ( keyboardInput == null) {
-				return;
+
+				//if user inputs words or symbols
+			} else if ( isNaN(keyboardInput) ) {
+				evenStart++; 
+				keyboardInput = window.prompt('Please enter a number, nothing else:');
+				if ( keyboardInput == null || evenStart == 5 ) {
+					alert("You're hopeless...");
+			evenStart = 0;
+					return;
 				};
-							//if user inputs 0 or -1/neg int
-			}	else if ( keyboardInput <= 0 ) {keyboardInput = window.prompt('The number must be larger than zero:');
-				if ( keyboardInput == null) {
-				return;
+
+				//if user inputs 0 or -1/neg int
+			} else if ( keyboardInput <= 0 ) {
+				evenStart++; 
+				keyboardInput = window.prompt('The number must be larger than zero:');
+				if ( keyboardInput == null || evenStart == 5 ) {
+					alert("You're hopeless...");
+			evenStart = 0;
+					return;
 				};
-			};			//keep looping until you get a positive integer
+
+				//funny message if a user just cannot get it
+			};	
+
+		//keep looping until you get a positive integer
 		} while ( isNaN(keyboardInput) || keyboardInput <= 0 );
+
+		if ( evenStart == 5 ) {
+			alert("You're hopeless...");
+			evenStart = 0;
+		};
 
 		//math to figure out if there is a remainder.  ex: 10 / 2 = 5.0, no remainder, evenly devided in two.
 		isODD = ( keyboardInput % 2 );
