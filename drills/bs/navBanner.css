@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+.banner {
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;
+}
+
+header {
+	position: relative;
+}
+
+.betaLogo {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background-color: inherit;
+}
+.betaLogoFlip {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background-color: inherit;
+	float: left;
+}
+
+nav {
+	background-color: #20416c;
+/*	margin: 1px 0px;*/
+	/*clear: both;*/
+}
+
+/* links in the navbar header specifically */
+nav a {
+	color: white;
+    text-decoration: none;
+}
+
+header.what:hover {
+	visibility: visibile;
+}
+
+.menu {
+	display: inline;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+}
+
+.menu li {
+	color: #white;
+	display: inline-block;
+	position: relative;
+/*	background-color: #000019;*/
+	cursor: pointer;
+	width: 125px;
+	padding: 0px 0px;
+}
+
+.menu li:hover {	
+	background-color: #5eafdf;
+	color: #fff;
+	border: 1px solid #11233b;
+}
+
+.menu li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+li.homeUrl {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+}
+
+li.onUrl {
+	background-color: #5eafdf;
+	color: #fff;
+	border-bottom: 1px solid #11233b;
+}
+
+li.offUrl {
+	color:white;
+/*	border-bottom: 1px solid white;*/
+}
+
+/*a.githuburl, */
+li.githubUrl {
+	color: #5eafdf;
+	font-variant: normal;
+	display: inline-block;
+	font-size: 25px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+	width: 125px;
+	cursor: pointer;
+	padding: 0px;
+	font-style: italic;
+}
+
+/*li.githubUrl:hover {
+	font-style: normal;
+	background-color: violet;
+	color: #white;
+	border: 1px solid #11233b;
+}*/
+
+.submenu {
+	padding-top: 5px;
+	position: absolute;
+	top: 32px;
+	width: 125px;
+	opacity: 0;
+	visibility: hidden;	
+  z-index:1;
+	font-size: 25px;
+}
+
+.submenu li {
+	background-color: #11233b;
+	display: inline-block;
+	color: #b3b3b3;
+	margin: 1px 0px;
+/*	border-bottom: 1px;*/
+	opacity: .85;
+}
+
+.submenu li:hover {
+	color: #fff;
+	background-color: #5eafdf;
+	visibility: visible;
+	opacity: .96;
+}
