@@ -1,6 +1,6 @@
 //EVEN 
 //Use: to find out if a number is even or odd, and then asks the user if they want to run the program again.
-//version 1.2 - testing.  Stable.
+//version 1.2.1 - Master.  Stable.  Fixed a bug in the joke code.  Fully working.
 
 
 
@@ -18,9 +18,7 @@ $(document).ready(function() {
 			if ( evenStart == 0 ) {			//only show welcome message on first run
 				keyboardInput = window.prompt('Welcome to Even, please enter a number that\'s larger than zero to find out of it is even or odd, then press OK.');
 				evenStart++;		//immediately increment so it loops through the other 2 options if non-positive int
-				if ( keyboardInput == null || evenStart == 5 ) {		//if user presses "Cancel"
-					alert("You're hopeless...");
-			evenStart = 0;
+				if ( keyboardInput == null ) {		//if user presses "Cancel"
 					return;
 				};
 
@@ -30,7 +28,8 @@ $(document).ready(function() {
 				keyboardInput = window.prompt('Please enter a number, nothing else:');
 				if ( keyboardInput == null || evenStart == 5 ) {
 					alert("You're hopeless...");
-			evenStart = 0;
+					evenStart = 0;		//you pressed cancel, so you get reset
+					playNow = false;	//you pressed cancel, so you get reset
 					return;
 				};
 
@@ -40,7 +39,8 @@ $(document).ready(function() {
 				keyboardInput = window.prompt('The number must be larger than zero:');
 				if ( keyboardInput == null || evenStart == 5 ) {
 					alert("You're hopeless...");
-			evenStart = 0;
+					evenStart = 0;		//you pressed cancel, so you get reset
+					playNow = false;	//you pressed cancel, so you get reset
 					return;
 				};
 
